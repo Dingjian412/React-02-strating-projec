@@ -35,7 +35,7 @@ const AddUser = (props) => {
       });
       return;
     }
-    props.onAddUser(enteredUsername, enteredAge);
+    props.onAddUser(enteredUsername, enteredAge, Math.random());
     setenteredUsername("");
     setenteredAge("");
   };
