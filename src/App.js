@@ -15,6 +15,7 @@ function App() {
     <div>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
+      <label>This is React Page.</label>
     </div>
   );
 }
